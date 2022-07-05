@@ -73,4 +73,13 @@
         <item name="android:textAllCaps">false</item>
     </style>
 
+    <style name="Widget.App.NavigationRailView" parent="Widget.MaterialComponents.NavigationRailView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.NavigationRailView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.NavigationRailView" parent="">
+        <item name="colorPrimary">@color/shrine_pink_100</item>
+        <item name="colorOnPrimary">@color/shrine_blue_900</item>
+    </style>
+
 </resources>

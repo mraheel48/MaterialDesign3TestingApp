@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="shrine_pink_100">#FFCDD2</color>
-    <color name="shrine_pink_light">#F48FB1</color>
-    <color name="shrine_pink_900">#880E4F</color>
+    <color name="shrine_pink_light">#EF9A9A</color>
+    <color name="shrine_pink_900">#EF9A9A</color>
 
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>

@@ -4,10 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.materialdesign3testingapp.databinding.ActivityMainBinding
-import com.example.materialdesign3testingapp.uiTesing.BottomNavigationTest
-import com.example.materialdesign3testingapp.uiTesing.CardViewTest
-import com.example.materialdesign3testingapp.uiTesing.DialogText
-import com.example.materialdesign3testingapp.uiTesing.NavigationDrawersTest
+import com.example.materialdesign3testingapp.uiTesing.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,6 +30,10 @@ class MainActivity : AppCompatActivity() {
 
         mainBinding.btnDrawer.setOnClickListener {
             startActivity(Intent(this, NavigationDrawersTest::class.java))
+        }
+
+        mainBinding.btnRailView.setOnClickListener {
+            startActivity(Intent(this, NavigationRailViewTest::class.java))
         }
     }
 }
