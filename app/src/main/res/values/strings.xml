@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MaterialDesign3TestingApp</string>
+
+    <string name="text_label_1">Text label 1</string>
+    <string name="text_label_2">Text label 2</string>
+    <string name="text_label_3">Text label 3</string>
+    <string name="text_label_4">Text label 4</string>
+    <string name="text_label_5">Text label 5</string>
+    <string name="content_description_media">All the optional elements of a card\'s content (with the exception of the checked icon) are implemented through the use of other views/components, as shown in the</string>
+    <string name="title">API and source code</string>
+    <string name="secondary_text">secondary_text</string>
+    <string name="supporting_text">supporting_text</string>
+    <string name="action_1">action 1</string>
+    <string name="action_2">Action 2</string>
+</resources>
