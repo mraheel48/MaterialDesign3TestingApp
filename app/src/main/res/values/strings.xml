@@ -12,4 +12,6 @@
     <string name="supporting_text">supporting_text</string>
     <string name="action_1">action 1</string>
     <string name="action_2">Action 2</string>
+    <string name="header_title">Header Title</string>
+    <string name="header_text">Header Text</string>
 </resources>

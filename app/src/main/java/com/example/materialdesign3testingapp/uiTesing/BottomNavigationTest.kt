@@ -57,7 +57,7 @@ class BottomNavigationTest : AppCompatActivity() {
 
                 R.id.page_4 -> {
                     // Respond to navigation item 3 reselection
-                    Log.d("myBottomClick", "Click 3")
+                    Log.d("myBottomClick", "Click 4")
                 }
             }
         }

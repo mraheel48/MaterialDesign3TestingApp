@@ -7,6 +7,7 @@ import com.example.materialdesign3testingapp.databinding.ActivityMainBinding
 import com.example.materialdesign3testingapp.uiTesing.BottomNavigationTest
 import com.example.materialdesign3testingapp.uiTesing.CardViewTest
 import com.example.materialdesign3testingapp.uiTesing.DialogText
+import com.example.materialdesign3testingapp.uiTesing.NavigationDrawersTest
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,6 +29,10 @@ class MainActivity : AppCompatActivity() {
 
         mainBinding.btnDialog.setOnClickListener {
             startActivity(Intent(this, DialogText::class.java))
+        }
+
+        mainBinding.btnDrawer.setOnClickListener {
+            startActivity(Intent(this, NavigationDrawersTest::class.java))
         }
     }
 }
