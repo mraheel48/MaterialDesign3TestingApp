@@ -6,15 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".uiTesing.NavigationRailViewTest">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/bgcolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/navigation_drawer"
+        app:navigationIcon="@drawable/ic_round_menu"
+        app:title="@string/text_label_1"
+        app:titleCentered="true"
+        app:titleTextColor="@color/white" />
+
     <com.google.android.material.navigationrail.NavigationRailView
         android:id="@+id/navigation_rail"
         style="@style/Widget.App.NavigationRailView"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         app:headerLayout="@layout/navigation_rail_fab"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topAppBar"
         app:menu="@menu/navigation_drawer" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
