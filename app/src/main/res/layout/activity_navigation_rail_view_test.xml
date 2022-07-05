@@ -8,10 +8,10 @@
 
     <com.google.android.material.navigationrail.NavigationRailView
         android:id="@+id/navigation_rail"
+        style="@style/Widget.App.NavigationRailView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:headerLayout="@layout/navigation_rail_fab"
-        style="@style/Widget.App.NavigationRailView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
